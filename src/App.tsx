@@ -7,8 +7,8 @@ const App = () => {
   return (
     // grid layout
     <Grid templateAreas={{
-      base:`"nav" "main"`,//small screens
-      lg:`"nav nav" "aside main"`//1024px
+      base:`"nav" "main"`,     //small screens
+      lg:`"nav nav" "aside main"`  //1024px
       }}>  
       <GridItem area='nav'>
         <NavBar/>
