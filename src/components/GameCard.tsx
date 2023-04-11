@@ -4,6 +4,7 @@ import React from 'react'
 import { Game } from '../Hooks/useGames'
 import croppedImage from '../services/image-url'
 import CriticScore from './CriticScore'
+import Emoji from './Emoji'
 import PlatformiconList from './PlatformiconList'
 
 interface Props{
@@ -18,7 +19,7 @@ const GameCard = ({game}:Props) => {
                <PlatformiconList platforms={game.parent_platforms.map(p=>p.platform)}/>
             <CriticScore score={game.metacritic}/> 
             </HStack>
-             <Heading fontSize="2xl">{game.name}</Heading>
+             <Heading fontSize="2xl">{game.name}<Emoji rating={game.rating_top}/></Heading>
         </CardBody>
     </Card>
   )

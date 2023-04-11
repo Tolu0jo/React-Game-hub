@@ -5,7 +5,7 @@ import useGames, { Platform } from "../Hooks/useGames";
 import { Genre } from "../Hooks/useGenres";
 import CardContainer from "./CardContainer";
 import GameCard from "./GameCard";
-import {GameCardSkeleton }from "./gameCardSkeleton";
+import {GameCardSkeleton }from "./GameCardSkeleton";
 
 interface Props{
     gameQuery: GameQuery
