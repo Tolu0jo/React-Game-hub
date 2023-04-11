@@ -6,7 +6,7 @@ const config : ThemeConfig ={
 
 const theme =extendTheme({config
 ,colors:{
-    goray:{
+    gray:{
         50:"#e7f3fe",
         100:"#bbdaf7",
         200:"#8fc2f1",
